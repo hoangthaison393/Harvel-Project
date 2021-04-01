@@ -1,0 +1,77 @@
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./dropdown.css">
+
+    <div class="wrapper">
+    <div class="sidebar">
+        <p class="welcome"><span style="font-size: 25px;">Welcome to </span><span style="font-size: 33.4px"><strong>e</strong></span><span style="font-size: 25px;"><strong>Pro</strong></span></p>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./aboutus.html">About us</a></li>
+            <li>
+                <li class="nolink">Our product</li>
+            <ul>
+                <li><a href="#" class="detail">Fan</a></li>
+                <li><a href="#" class="detail">Air conditioner</a></li>
+                <li><a href="#" class="detail">Light bulb</a></li>
+                <li><a href="#" class="detail">Microwave</a></li>
+                <li><a href="#" class="detail">Fridge</a></li>
+            </ul>
+            </li>
+            <li class="nolink">Media</li>
+            <p class="mediafraction">Fanpage: <a href="#">epro</a></p>
+            <p class="mediafraction">Other website: <a href="#">epro</a></p>
+            <p class="mediafraction">Youtube channel: <a href="#">epro</a></p>
+            <li><a href="./contact.html">Contact us</a></li>
+            <p class="mediafraction">Address: Tòa nhà epro 143 Nguyễn Xiển, Hạ Đình, Thanh Xuân, Hà Nội<br>Numbers: 0988888888</p>
+        </ul> 
+    </div>
+    <div class="sidebar1"></div>
+</div>
+<div>
+    <img src="./image/Untitled-3.jpg" alt="" id="topselling"><br>
+    <img src="./image/khung.jpg" alt="" id="khung">
+</div><br><br>
+<div>
+    <div class="card khungproduct inline" style="width: 298px;">
+        <img class="card-img-top imageborder" src="./image/topselling1.jpg" usemap="#productmap">
+            <a href="./product.html" class="cardbody" onclick="return product(fanname)">
+               <h5>Quạt mini để bàn 4 chế độ làm mát hiệu Baseus Benks - Hàng chính hãng</h5>
+            </a>
+      </div>
+      <div class="card inline" style="width: 300px;">
+        <img class="card-img-top imageborder" src="./image/topselling2.jpg" usemap="#productmap">
+        <a href="./product.html" class="cardbody" onclick="product(airconditer)">
+               <h5>Quạt mini để bàn 4 làm mát hiệu Baseus Benks - Hàng chính hãng</h5>
+            </a>
+      </div>
+      <div class="card inline" style="width: 300px;">
+        <img class="card-img-top imageborder" src="./image/topselling3.jpg" usemap="#productmap">
+            <a href="#" class="cardbody">
+               <h5>Quạt mini để bàn 4 làm mát hiệu Baseus Benks - Hàng chính hãng</h5>
+            </a>
+      </div>
+</div>
+<div style="height: 100px;"></div>
+<div>
+    <div class="card khungproduct inline" style="width: 300px;">
+        <img class="card-img-top imageborder" src="./image/topselling4.jpg" usemap="#productmap">
+            <a href="#" class="cardbody">
+               <h5>Quạt mini để bàn 4 chế độ làm mát hiệu Baseus Benks - Hàng chính hãng</h5>
+            </a>
+      </div>
+      <div class="card inline" style="width: 300px;">
+        <img class="card-img-top imageborder" src="./image/topselling5.jpg" usemap="#productmap">
+            <a href="#" class="cardbody">
+               <h5>Quạt mini để bàn 4 làm mát hiệu Baseus Benks - Hàng chính hãng</h5>
+            </a>
+      </div>
+</div>
+<hr style="border-width: 2.5px;">
+<p style="margin-left: 300px;">Fan</p>
+  <map name="productmap">
+      <area shape="rect" coords="0,0,500,500" href="./product.html">
+  </map>
+    <div class="container-fluid navbar navbar-expand-md navbar-dark bg-dark sticky-bottom" style="height: 20px;">
+    </div>
+</body>
+</html>
