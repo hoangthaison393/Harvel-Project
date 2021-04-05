@@ -43,10 +43,10 @@ body { font-family: 'Titillium Web', sans-serif; }
 
 
 .header-area {
-    background: none repeat scroll 0 0 #f4f4f4;
+    background: none repeat scroll 0 0 black;
 }
 .header-area a {
-    color: #888;
+    color: white;
 }
 .user-menu ul {
     list-style: outside none none;
@@ -95,7 +95,7 @@ z-index: 999;}
 
 .logo h1 {
     font-size: 30px;
-    margin: 30px;font-weight: 400;
+    margin: 25px;font-weight: 400;
 }
 .logo h1 a {
     color: #999;
@@ -512,7 +512,7 @@ padding: 35px 0 180px;}
     margin-top: 25px;
 }
 a {color: rgb(254,209,1)}
-a:hover, a:focus {color: #17a78b}
+a:hover, a:focus {color: rgb(254,209,1)}
 .footer-bottom-area {
   background: none repeat scroll 0 0 #000;
   color: #fff;
@@ -1020,6 +1020,6 @@ div.cart-collaterals ul.products li.product:hover .add_to_cart_button{background
 
 
 .search-box{
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin-top: 47px;
+    margin-bottom: 30px;
 }
